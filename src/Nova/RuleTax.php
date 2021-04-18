@@ -19,6 +19,13 @@ class RuleTax extends Resource
     public static $model = \Armincms\Taxation\Models\TaxationRuleTax::class;  
 
     /**
+     * Indicates if the resource should be globally searchable.
+     *
+     * @var bool
+     */
+    public static $globallySearchable = false; 
+
+    /**
      * Get the fields displayed by the resource.
      *
      * @param  \Illuminate\Http\Request  $request
